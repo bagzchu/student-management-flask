@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask-specific instance folder (contains local configuration / secrets)
+instance/
+
+# Environment variables (contains private API keys and database credentials)
+.env
+.flaskenv
+
+# Testing and coverage summaries
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and packaging distributions
+dist/
+build/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+Thumbs.db
